@@ -1,98 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Merriweather", serif;
 }
+
 /* font family marryweather */
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .merriweather-regular {
+}
+
+.merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .merriweather-bold {
+}
+
+.merriweather-bold {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .merriweather-black {
+}
+
+.merriweather-black {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
-  }
-  
-  .merriweather-light-italic {
+}
+
+.merriweather-light-italic {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: italic;
-  }
-  
-  .merriweather-regular-italic {
+}
+
+.merriweather-regular-italic {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: italic;
-  }
-  
-  .merriweather-bold-italic {
+}
+
+.merriweather-bold-italic {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: italic;
-  }
-  
-  .merriweather-black-italic {
+}
+
+.merriweather-black-italic {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-  }
-  
+}
+
 /* header section style  */
-.header{
-    background-image:linear-gradient(180deg, #070211, transparent), url("images/Banner-Image.png");
+.header {
+    background-image: linear-gradient(180deg, #070211, transparent), url("images/Banner-Image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 750px;
     max-width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    margin:50px 140px 0px;
+    margin: 50px 140px 0px;
 
 }
 
-.header-container{
+.header-container {
     padding: 177px 344px;
 }
-.header-title{
+
+.header-title {
     font-size: 32px;
     font-weight: normal;
 }
-.header-sub-title{
+
+.header-sub-title {
     font-size: 72px;
-    font-size:bold;
+    font-size: bold;
 }
+
 /* shared style  */
-.border{
+.border {
     border-radius: 10px;
 }
+
 /* 65% off section */
-.holiday{
+.holiday {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.holiday-section{
+
+.holiday-section {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 802px;
@@ -100,68 +107,75 @@ body{
     margin: 120px 500px 0px;
     text-align: center;
 }
-.discount-title{
-    font-family: inter ;
+
+.discount-title {
+    font-family: inter;
     font-size: 88px;
     margin-bottom: 10px;
     color: #FF0000;
     font-weight: bold;
 }
-.discount-sub-title{
+
+.discount-sub-title {
     font-family: inter;
     font-size: 24px;
     color: #FF0000;
     font-weight: medium;
 }
-.discount-third-title{
+
+.discount-third-title {
     font-family: inter;
     font-size: 48px;
     color: #070211;
     font-weight: bold;
     margin: 5px 0px;
 }
-.discount-image{
+
+.discount-image {
     height: 500px;
     width: 800px;
 }
 
 /* WELCOME SECTION STYLE  */
-.welcome-section{
-    background-image:linear-gradient(90deg, #070211, transparent), url("images/Vectorrr.png");
+.welcome-section {
+    background-image: linear-gradient(90deg, #070211, transparent), url("images/Vectorrr.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 750px;
     max-width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: left;
     color: white;
-    margin:50px 140px 10px;
+    margin: 50px 140px 10px;
 }
 
 /* .welcome-child-1{
     width: 650;
 } */
-.welcome-title{
+.welcome-title {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-size: 64px;
 }
-.year-2024-img{
+
+.year-2024-img {
     height: 465px;
     width: 320px;
     margin-right: 70px 138px 70px 0px;
 }
-.welcome-description{
+
+.welcome-description {
     font-family: inter;
     font-size: 18px;
     font-style: normal;
     margin-top: 24px;
     margin-bottom: 48px;
 }
-.join-btn{
+
+.join-btn {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -171,12 +185,13 @@ body{
 
 /* place and date section style  */
 
-.place-section{
+.place-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.place-section-child{
+
+.place-section-child {
     background-image: linear-gradient(180deg, #f7353560, transparent);
     width: 100%;
     height: 600px;
@@ -184,19 +199,22 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin:50px 140px 0px;
+    margin: 50px 140px 0px;
 }
-.places{
+
+.places {
     font-size: 32px;
     font-family: inter;
     color: rgb(23, 23, 23);
     font-weight: 600;
     padding: 10px 0px;
 }
-.place-child-color{
+
+.place-child-color {
     color: #FF0000;
 }
-.join-now-btn{
+
+.join-now-btn {
     color: white;
     background-color: #FF0000;
     padding: 15px 30px;
@@ -210,12 +228,13 @@ body{
 
 /* comming soon item style  */
 
-.comming-soon-section{
+.comming-soon-section {
     display: flex;
     align-items: center;
     justify-self: center;
 }
-.comming-soon-parent{
+
+.comming-soon-parent {
     /* background-color: #fe3f3f0f; */
     background-image: linear-gradient(0deg, #fe3f3f0f, transparent);
     display: flex;
@@ -224,34 +243,37 @@ body{
     /* text-align: center; */
     width: 100%;
     height: 800px;
-    margin:50px 140px 0px;
+    margin: 50px 140px 0px;
 }
-.comming-item-title{
+
+.comming-item-title {
     font-size: 24px;
-    color:#FF0000;
+    color: #FF0000;
     font-family: inter;
     font-weight: medium;
 }
-.comming-item-sub-title{
+
+.comming-item-sub-title {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 48px;
 }
-.comming-item-content{
+
+.comming-item-content {
     font-family: inter;
     font-size: 20px;
     font-style: regular;
 }
 
-.year{
+.year {
     font-family: inter;
     font-size: 48px;
     font-weight: bold;
     color: #FF0000;
 }
 
-.year-description{
+.year-description {
     font-family: inter;
     font-size: 20px;
     font-weight: regular;
@@ -259,48 +281,113 @@ body{
     margin-bottom: 20px;
 }
 
-.year-image{
+.year-image {
     width: 140px;
     height: 140px;
 }
-.comming-items-1{
+
+.comming-items-1 {
     /* width: 35%; */
     padding-left: 20px;
-    flex:1;
- }
-.comming-items-2{
+    flex: 1;
+}
+
+.comming-items-2 {
     height: 400px;
     width: 400px;
     border: 8px solid red;
     border-radius: 50%;
     margin: 100px;
 }
-.comming-items-2 img{
-    margin-left:16px;
+
+.comming-items-2 img {
+    margin-left: 16px;
     margin-top: 16px;
 }
-.comming-items-3{
-    flex:1;
+
+.comming-items-3 {
+    flex: 1;
 }
-.discount2-parent{
+
+/* holiday section start here  */
+.holiday-container-section {
+    max-width: 1620px;
+    margin: 0 auto;
+    margin-top: 140px;
+    height: 968px;
+    position: relative;
+    border: 2px solid red;
+}
+
+.discount2-parent {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 140px 0px;
 }
-.discount2-child{
-    display:flex;
+
+.discount2-child {
+    display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1620px;
-    margin: 0 auto;
-    border: 2px solid red;
 }
-.discount2-section{
+
+.discount2-section {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 50%;
     padding: 50px 0px;
+}
+
+.discount2-title {
+    color: rgb(7, 2, 17);
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount2-sub-title {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+}
+
+#holiday-text {
+    color: red;
+}
+
+.discount2-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.solid-color {
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 80%;
+}
+
+.gift-box {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    margin-top: 80px;
+}
+
+.discount-image-container {
+    height: 100%;
+    width: 100%;
+    margin-left: 500px;
 }
